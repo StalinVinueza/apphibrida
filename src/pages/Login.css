@@ -1,0 +1,149 @@
+/* Título de login */
+.login-title {
+  margin-bottom: 4rem;
+}
+/* Fondo degradado de la página de login */
+.login-content {
+  --background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+  background: linear-gradient(240deg, #03DBA5, #039FDB);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* Contenedor central */
+.login-box {
+  width: 90%;
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Logo */
+.login-logo {
+  display: block;
+  margin: 6rem auto 2rem auto;
+  width: 150px;
+}
+
+/* Contenedor de cada input estilo pastilla */
+.input-pill {
+  display: flex;
+  align-items: center;
+  background: #eaeaea;
+  border-radius: 50px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 320px;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Etiqueta lateral con icono */
+.input-label {
+  background: #124483;
+  color: white;
+  padding: 1rem 1rem;
+  font-weight: bold;
+  border-radius: 50px 0 0 50px;
+  flex-shrink: 0;
+}
+
+/* Iconos de los inputs */
+.input-pill ion-icon {
+  color: #fff !important;
+  font-size: 2rem;
+}
+
+/* Input dentro del estilo pastilla */
+.input-pill ion-input {
+  flex: 1;
+  background: transparent;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  font-size: 1rem;
+  padding: 0.7rem 1rem;
+}
+
+/* Botón login estilo pastilla */
+.login-btn-pill ion-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --background: linear-gradient(90deg, #03DBA5 0%, #039FDB 100%);
+  --color: #fff;
+  --border-radius: 50px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 320px;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 16px rgba(3,159,219,0.15);
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  opacity: 0.95;
+}
+
+.login-btn-pill:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(3,159,219,0.25);
+  opacity: 1;
+}
+
+
+.login-btn-pill:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* Icono del botón login (si se usa) */
+.login-btn-icon ion-botton {
+  color: #fff;
+  font-size: 2rem;
+  margin-right: 0.7rem;
+}
+
+/* Estilo personalizado para el botón de ingresar */
+.custom-pill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  --background: linear-gradient(90deg, #03DBA5 0%, #039FDB 100%);
+  --color: #fff;
+  --border-radius: 50px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 320px;
+  margin-top: 3rem;
+  font-size: 1.2rem;
+  box-shadow: 0 4px 16px rgba(3,159,219,0.15);
+  letter-spacing: 1px;
+  border: none;
+  outline: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  opacity: 0.95;
+}
+
+.custom-pill:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(3,159,219,0.25);
+  opacity: 1;
+}
+
+
+.custom-pill:hover {
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
